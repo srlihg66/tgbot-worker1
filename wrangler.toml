@@ -1,0 +1,16 @@
+# Top-level configuration
+name = "tgbot-worker1"
+main = "./worker.js"
+compatibility_date = "2025-11-15"
+workers_dev = true
+
+kv_namespaces = [
+  { binding = "nfd" },
+  { binding = "FRAUD_LIST" }
+]
+
+[vars]
+ENV_BOT_TOKEN = "8521695675:AAG_N4h3j-PBkxCta4x28CoU_7X-BRvuOmY" 
+#Telegram Bot Token
+ENV_BOT_SECRET = "2355d2d7-694f-446d-9ac4-784cb7d2c642"
+ENV_ADMIN_UID = "5486449342"
